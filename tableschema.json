@@ -1,29 +1,33 @@
 {
-  "fields": [
+  "name": "fire_incident_history",
+  "title": "Fire Incident History",
+  "resources": [
     {
-      "name": "Day of IncDate",
-      "type": "date",
-      "Format": "%d-%m-%Y"
-    },
-    {
-      "name": "Fire Incident",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "Medical Incident",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "Other",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
+      "name": "fire_incident_history",
+      "path": "fire_incident_history.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Day of IncDate",
+            "type": "date",
+            "Format": "%d-%m-%Y"
+          },
+          {
+            "name": "Fire Incident",
+            "type": "integer",
+            "constraints": {"minimum": 0}
+          },
+          {
+            "name": "Medical Incident",
+            "type": "integer",
+            "constraints": {"minimum": 0}
+          },
+          {
+            "name": "Other",
+            "type": "integer",
+            "constraints": {"minimum": 0}
+          }
+        ]
       }
     }
   ]
