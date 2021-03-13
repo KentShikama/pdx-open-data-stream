@@ -10,7 +10,7 @@
       "type": "integer",
       "constraints": {
         "minimum": 0
-      },
+      }
     },
     {
       "name": "Medical Incident",
