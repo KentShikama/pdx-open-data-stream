@@ -1,23 +1,21 @@
 {
   "fields": [
     {
-      "name": "Name",
-      "type": "string",
-      "description": "User’s name"
+      "name": "Day of IncDate",
+      "type": "date",
+      "Format": "%d-%m-%Y"
     },
     {
-      "name": "Email",
-      "type": "string",
-      "format": "email",
-      "description": "User’s email"
-    },
-    {
-      "name": "Age",
+      "name": "Fire Incident",
       "type": "integer",
-      "description": "User’s age",
-      "constraints": {
-        "minimum": 18
-      }
+    },
+    {
+      "name": "Medical Incident",
+      "type": "integer",
+    },
+    {
+      "name": "Other",
+      "type": "integer",
     }
   ]
 }
