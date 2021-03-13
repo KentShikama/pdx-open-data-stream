@@ -10,7 +10,7 @@
           {
             "name": "Day of IncDate",
             "type": "date",
-            "Format": "%d-%b-%y"
+            "format": "%d-%b-%y"
           },
           {
             "name": "Fire Incident",
