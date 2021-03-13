@@ -8,14 +8,23 @@
     {
       "name": "Fire Incident",
       "type": "integer",
+      "constraints": {
+        "minimum": 0
+      },
     },
     {
       "name": "Medical Incident",
       "type": "integer",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "Other",
       "type": "integer",
+      "constraints": {
+        "minimum": 0
+      }
     }
   ]
 }
